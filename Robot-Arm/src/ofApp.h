@@ -21,4 +21,15 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+		ofImage braco;
+		ofImage antebraco;
+		ofImage mao;
+
+		float angBraco;
+		float angAntebraco;
+		float angMao;
+
+		bool bracoMove;
+		bool antebracoMove;
+		bool maoMove;
 };
